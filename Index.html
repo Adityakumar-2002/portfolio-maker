@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Maker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎨 Professional Portfolio Maker</h1>
+  <div class="container">
+    <div class="form-section">
+      <h2>Enter Your Info</h2>
+      <input type="text" id="name" placeholder="Your Name" />
+      <textarea id="bio" rows="3" placeholder="Short Bio"></textarea>
+      <textarea id="experience" rows="3" placeholder="Work Experience"></textarea>
+      <input type="text" id="skills" placeholder="Skills (comma-separated)" />
+      <input type="text" id="project1" placeholder="Project 1" />
+      <input type="text" id="project2" placeholder="Project 2" />
+      <input type="text" id="project3" placeholder="Project 3" />
+      <button onclick="generatePortfolio()">✨ Generate Portfolio</button>
+    </div>
+    <div class="preview-section">
+      <h2>Preview</h2>
+      <div id="portfolio" class="portfolio"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
